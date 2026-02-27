@@ -2,15 +2,14 @@
 
 Archivo de promps a chatgptpara recrear la imagen
 
-### Prompt 1 – Análisis visual y estructura HTML
-
 A partir de una imagen de referencia, genera la estructura HTML semántica
 para un componente de interfaz puramente visual (sin interacción ni lógica).
 El diseño representa un panel rectangular con figuras geométricas repetidas
-(cuadrados y círculos) distribuidas en sus extremos.
+(cuadrados y círculos) distribuidas en sus extremos, siguiendo un patrón
+simétrico horizontal y vertical.
 Crea un contenedor principal que luego será centrado en el viewport.
-Dentro de él, define una estructura clara que permita ubicar grupos de elementos
-en las esquinas del contenedor.
+Dentro de él, define una estructura clara que permita ubicar **pares de elementos**
+en las esquinas del contenedor, **priorizando la reutilización de nodos y clases**.
 Utiliza clases reutilizables y nombres descriptivos.
 No incluyas estilos CSS ni posicionamiento, solo HTML bien estructurado
 y correctamente anidado.
