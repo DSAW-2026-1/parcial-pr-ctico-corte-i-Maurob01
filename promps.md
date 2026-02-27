@@ -39,7 +39,7 @@ justify-content, align-items y gap.
 Evita completamente el uso de position absolute o floats.
 Prioriza un layout claro, legible y fácil de mantener.
 
-hubo un problema con chat y continue en gemini estos son promps de gemini
+hubo un problema con chat y continue en gemini estos son promps de gemini, también lo que hizo chat estaba mal y corrido.
 
 ### Prompt 1: Estructura Semántica
 
