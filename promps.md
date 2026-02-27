@@ -1,6 +1,6 @@
 # Historial de Prompts – Parcial Desarrollo Web
 
-Archivo de promps a chatgptpara recrear la imagen
+Archivo de promps a chatgpt para recrear la imagen
 
 A partir de una imagen de referencia, genera la estructura HTML semántica
 para un componente de interfaz puramente visual (sin interacción ni lógica).
@@ -38,6 +38,22 @@ Utiliza flexbox anidado si es necesario y propiedades como
 justify-content, align-items y gap.
 Evita completamente el uso de position absolute o floats.
 Prioriza un layout claro, legible y fácil de mantener.
+
+hubo un problema con chat y continue en gemini estos son promps de gemini
+
+### Prompt 1: Estructura Semántica
+
+Genera la estructura HTML para un componente de interfaz. Necesito un contenedor principal (clase canvas) de 400x300px. Dentro, debe haber cuatro sub-contenedores (clase group) distribuidos en las esquinas. Cada grupo contendrá dos elementos div: uno para un cuadrado y otro para un círculo. Asegúrate de usar nombres de clases descriptivos para facilitar la especificidad en el CSS posterior.
+
+### Prompt 2: Estilos Base y Modelo de Caja
+
+Aplica estilos CSS a la estructura anterior. El canvas debe tener un fondo azul oscuro (#1919a6). Define el tamaño de los cuadrados y círculos usando unidades rem para que sean escalables. Los cuadrados son de color cian (#70d5e5) y los círculos rosa (#d4569e). Usa border-radius: 50% para transformar los div en círculos. Asegúrate de que el contenedor principal esté centrado en el viewport usando un layout de box-model estándar (margin auto).
+
+### Prompt 3: Layout y Refinamiento (Flexbox)
+
+Ahora, organiza el layout. El contenedor canvas debe usar display: flex con flex-wrap: wrap y justify-content: space-between para enviar los grupos a las esquinas. Para los grupos internos, usa display: flex y align-items: center.
+
+Nota que en la imagen, el orden del círculo y el cuadrado cambia según la posición. Utiliza la pseudo-clase :nth-child o aplica una clase inversa para ambiar el flex-direction: row-reverse en los grupos de la derecha y los de abajo, logrando esa simetría visual exacta. El contenedor de 400x300px debe estar centrado verticalmente en la pantalla.
 
 :)
 
