@@ -1,0 +1,50 @@
+/* Centrado del contenedor en el viewport */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222;
+}
+
+/* Contenedor Principal */
+.canvas {
+    width: 400px;
+    height: 300px;
+    background-color: #1919a6;
+    padding: 30px;
+    box-sizing: border-box; /* Asegura que el padding no afecte los 400x300px */
+    
+    /* Layout principal */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+/* Estilos de los grupos internos */
+.group {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacio entre cuadrado y círculo */
+}
+
+/* Refinamiento: Inversión de elementos para la simetría */
+.group.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Estilos base de las figuras usando unidades rem */
+.square {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #70d5e5;
+}
+
+.circle {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: #d4569e;
+    border-radius: 50%; /* Transforma el div en círculo */
+}

@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/pcBTorPA)
 # Parcial Desarrollo Web: Ingeniería de Prompts y Maquetación
 
 ## Contexto
@@ -40,3 +41,7 @@ Debes crear un archivo llamado `prompts.md` en la raíz de tu proyecto. En este 
 > [!CAUTION]
 > ### ⚠️ NOTA IMPORTANTE SOBRE LA CALIFICACIÓN
 > El **despliegue del proyecto es un requisito obligatorio**. Si la solución no se encuentra desplegada y la URL no es funcional al momento de la revisión, **la tarea no será calificada (nota 0.0)**, independientemente del contenido del repositorio.
+>
+> ### Mauricio Berbeo Murcia ###
+>
+> https://dsaw-2026-1.github.io/parcial-pr-ctico-corte-i-Maurob01/
